@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  padding: 0px;
+}
+
+.navbar img {
+  width: 180px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar nav a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("imagenes/¿Que-es-un-catalogo-de-servicios-de-TI.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.slide {
+  width: 500px;
+  height: 200px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.slide img {
+  width: 50px;
+}
+
+.slide-text {
+  max-width: 400px;
+}
+
+.intro {
+  margin: 0;
+  padding: 40px;
+  background-color: lightgray;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.intro p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+  background-color: rgb(65, 65, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer p {
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+footer img{
+  width: 20px;
+}
