@@ -75,26 +75,26 @@
   text-align: center;
 }
 
-.intro p{
-    max-width: 700px;
-    margin: 0 auto;
+.intro p {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 footer {
-  background-color: rgb(65, 65, 65);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(104, 104, 104);
 }
 
 footer p {
-  padding: 20px;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 12px;
   color: white;
 }
 
 footer img{
-  width: 20px;
+  width: 25px;
 }
