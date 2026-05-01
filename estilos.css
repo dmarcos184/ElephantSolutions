@@ -1,3 +1,4 @@
+/*General*/
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +31,26 @@
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(104, 104, 104);
+}
+
+footer p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+footer img{
+  width: 25px;
+}
+
+/*Index*/
 .hero {
   min-height: 100vh;
   background-image:
@@ -80,21 +101,5 @@
   margin: 0 auto;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  padding: 20px;
-  background-color: rgb(104, 104, 104);
-}
+/*Quienes somos*/
 
-footer p {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 12px;
-  color: white;
-}
-
-footer img{
-  width: 25px;
-}
