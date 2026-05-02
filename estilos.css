@@ -36,7 +36,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 20px;
+  padding: 30px;
   background-color: rgb(104, 104, 104);
 }
 
@@ -46,7 +46,7 @@ footer p {
   color: white;
 }
 
-footer img{
+footer img {
   width: 25px;
 }
 
@@ -80,11 +80,16 @@ footer img{
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.slide img {
-  width: 50px;
+.slide h2{
+  margin-bottom: 10px;
 }
 
-.slide-text {
+.slide img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.slidetext {
   max-width: 400px;
 }
 
@@ -96,10 +101,64 @@ footer img{
   text-align: center;
 }
 
+.intro h2{
+  margin-bottom: 10px;
+}
+
 .intro p {
   max-width: 700px;
   margin: 0 auto;
 }
 
 /*Quienes somos*/
+.desarrollo1 {
+  min-height: 100vh;
+  display: flex;
+  background-color: white;
+}
 
+.contenedorizq {
+  flex: 0 0 55%;
+  width: 55%;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("imagenes/servidores.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.contenedorizq h2{
+  margin-bottom: 10px;
+}
+
+.contenedorizq p {
+  max-width: 500px;
+  width: 90%;
+  margin: 0; 
+}
+
+.contenedorder {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;     
+  background-color: white;
+  padding: 80px 40px;
+  box-sizing: border-box;
+}
+
+.contenedorder img {
+  max-width: 250px; 
+  height: auto;
+  margin-bottom: 20px; 
+}

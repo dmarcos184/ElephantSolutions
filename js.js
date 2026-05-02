@@ -42,13 +42,13 @@ function changeSlide(){
         current = 0;
     }
 
-    document.getElementById("slide-img").src =
+    document.getElementById("slideimg").src =
     slides[current].image;
 
-    document.getElementById("slide-title").textContent =
+    document.getElementById("slideh2").textContent =
     slides[current].title;
 
-    document.getElementById("slide-description").textContent =
+    document.getElementById("slidedescription").textContent =
     slides[current].description;
 }
 
