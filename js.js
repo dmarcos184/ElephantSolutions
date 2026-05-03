@@ -2,8 +2,8 @@ const slides = [
 
     {
         image: "imagenes/caja-registradora.png",
-        title: "Desarrollo Web",
-        description: "Creamos páginas modernas y optimizadas para emprendedores y negocios digitales."
+        title: "Sistema de ventas personalizado",
+        description: "Creamos la pagina web de tu negocio en base a las necesidades."
     },
 
     {
