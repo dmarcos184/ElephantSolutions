@@ -160,9 +160,23 @@ footer img {
 }
 
 .contenedorder img {
-  max-width: 250px;
+  max-width: 50px;
   height: auto;
   margin-bottom: 20px;
+}
+
+.contenedorder h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+}
+
+.contenedorder p {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 /*Servicios*/
@@ -187,15 +201,15 @@ footer img {
   margin-bottom: 40px;
 }
 
-.desarrollo2 h2{
+.desarrollo2 h2 {
   margin-bottom: 10px;
 }
 
 .desarrollo3 {
   min-height: 85vh;
   display: flex;
-  flex-direction: column; 
-  align-items: center;  
+  flex-direction: column;
+  align-items: center;
   background-color: white;
 }
 
@@ -209,16 +223,16 @@ footer img {
 
 .contenedorcards {
   display: flex;
-  flex-wrap: wrap;      
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
-  max-width: 1200px;    
+  max-width: 1200px;
 }
 
 .card {
-  background-color: hsl(0, 5%, 92%); 
+  background-color: hsl(0, 5%, 92%);
   padding: 20px;
-  width: 300px;         
+  width: 300px;
   height: 200px;
   display: flex;
   align-items: center;
@@ -234,6 +248,12 @@ footer img {
   margin-bottom: 10px;
 }
 
-.card p{
- font-family: "Roboto Condensed", sans-serif;
+.card p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.desarrollo4{
+  min-height: 100vh;
+  display: flex;
+  background-color: aliceblue;
 }
