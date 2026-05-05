@@ -211,6 +211,7 @@ footer img {
   flex-direction: column;
   align-items: center;
   background-color: white;
+  margin-bottom: 40px;
 }
 
 .desarrollo3 h2 {
@@ -232,7 +233,7 @@ footer img {
 .card {
   background-color: hsl(0, 5%, 92%);
   padding: 20px;
-  width: 300px;
+  width: 850px;
   height: 200px;
   display: flex;
   align-items: center;
@@ -252,8 +253,16 @@ footer img {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.desarrollo4{
-  min-height: 100vh;
-  display: flex;
-  background-color: aliceblue;
+.card img{
+  width: 50px;
 }
+
+.contenedorimgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
