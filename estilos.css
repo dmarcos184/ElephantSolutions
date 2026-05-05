@@ -234,7 +234,7 @@ footer img {
   background-color: hsl(0, 5%, 92%);
   padding: 20px;
   width: 850px;
-  height: 200px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -266,3 +266,13 @@ footer img {
   flex-wrap: wrap;
 }
 
+.cardlista {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.cardlista ul{
+  text-align: left;
+}
