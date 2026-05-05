@@ -67,7 +67,7 @@ footer img {
 .slide {
   width: 500px;
   height: 200px;
-  background-color: lightgray;
+  background-color: hsl(0, 5%, 92%);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -112,14 +112,11 @@ footer img {
 
 /*Quienes somos*/
 .desarrollo1 {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   background-color: white;
-}
-
-.contenedorizq {
-  flex: 0 0 55%;
-  width: 55%;
+  flex: 0 0 100%;
+  width: 100%;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("imagenes/servidores.webp");
@@ -136,47 +133,44 @@ footer img {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.contenedorizq h2 {
+.desarrollo1 h2 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.contenedorizq p {
+.desarrollo1 p {
   max-width: 500px;
-  width: 90%;
   margin: 0;
   margin-bottom: 10px;
 }
 
-.contenedorder {
-  flex: 0 0 45%;
+.desarrollo11{
+  min-height: 20vh;
+  flex: 0 0 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
   background-color: white;
-  padding: 80px 40px;
-  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding: 40px;
+  align-items: self-start;
 }
 
-.contenedorder img {
-  max-width: 50px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.contenedorder h2 {
+.desarrollo11 h2 {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
 }
 
-.contenedorder p {
+.desarrollo11 p {
   font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
+  text-align: left;
   max-width: 500px;
-  width: 90%;
-  margin: 0;
-  margin-bottom: 10px;
+  width: 85%;
+}
+
+.desarrollo11 img{
+  max-width: 200px;
 }
 
 /*Servicios*/
