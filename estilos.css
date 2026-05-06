@@ -346,3 +346,66 @@ footer img {
 .formulario-contacto button:hover {
   background-color: #333;
 }
+
+
+.proyectos {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+  text-align: center;
+
+  /* Imagen de fondo + overlay */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://imagenes.heraldo.es/files/image_990_556/uploads/imagenes/2025/02/28/tan-solo-un-36-de-las-empresas-espanolas-pauta-sus-acciones-en-materia-de-sostenibilidad-ambiental.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.proyectos h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.proyectos p {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.contenedor-proyectos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.proyecto {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.proyecto h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.proyecto p {
+  margin-bottom: 10px;
+}
