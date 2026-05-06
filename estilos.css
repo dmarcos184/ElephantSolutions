@@ -271,7 +271,7 @@ footer img {
   text-align: left;
 }
 
-
+/*Contacto*/
 .contacto {
   min-height: 70vh;
   display: flex;
@@ -295,6 +295,10 @@ footer img {
   background-repeat: no-repeat;
 
   color: white;
+}
+
+.contacto h2{
+  margin-bottom: 10px;
 }
 
 /* Formulario */
@@ -374,7 +378,6 @@ footer img {
 }
 
 .proyectos h2 {
-  font-size: 35px;
   margin-bottom: 10px;
 }
 
