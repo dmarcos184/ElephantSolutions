@@ -73,5 +73,59 @@
         <p>Derechos reservados</p>
       </div>
     </footer>
+
+    <!-- CARRITO FLOTANTE -->
+    <div class="carrito-flotante">
+      <button class="carrito-icono-btn" onclick="abrirCarrito()">
+        🗂️ Cotización <span class="carrito-badge" id="carrito-badge">0</span>
+      </button>
+    </div>
+
+    <!-- OVERLAY CARRITO -->
+    <div class="carrito-overlay" id="carrito-overlay" onclick="cerrarCarrito()"></div>
+
+    <!-- PANEL LATERAL CARRITO -->
+    <div class="carrito-panel" id="carrito-panel">
+      <div class="carrito-panel-header">
+        <h3>Mi Cotización</h3>
+        <button class="carrito-cerrar-btn" onclick="cerrarCarrito()">✕</button>
+      </div>
+      <div class="carrito-panel-body" id="carrito-body">
+        <p class="carrito-vacio">Tu cotización está vacía.<br>Agrega los servicios que necesitas.</p>
+      </div>
+      <div class="carrito-panel-footer" id="carrito-footer" style="display:none;">
+        <div class="carrito-resumen">
+          <div class="carrito-resumen-fila">
+            <span>Subtotal (sin IVA)</span>
+            <span id="resumen-subtotal">$0.00</span>
+          </div>
+          <div class="carrito-resumen-fila">
+            <span>IVA (16%)</span>
+            <span id="resumen-iva">$0.00</span>
+          </div>
+          <div class="carrito-resumen-fila total">
+            <span>Total</span>
+            <span id="resumen-total">$0.00</span>
+          </div>
+        </div>
+        <div class="carrito-acciones">
+          <button class="btn-solicitar-cotizacion" onclick="solicitarCotizacion()">Solicitar cotización</button>
+          <button class="btn-solicitar-factura" onclick="solicitarFactura()">Solicitar factura</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY MODAL -->
+    <div class="carrito-overlay" id="modal-overlay" onclick="cerrarModal()"></div>
+
+    <!-- MODAL DE CONFIRMACION -->
+    <div class="modal-confirmacion" id="modal-confirmacion">
+      <div class="modal-icono" id="modal-icono"></div>
+      <h3 id="modal-titulo"></h3>
+      <p id="modal-mensaje"></p>
+      <button class="modal-confirmacion-btn" onclick="cerrarModal()">Aceptar</button>
+    </div>
+
+    <script src="carrito.js"></script>
   </body>
 </html>
